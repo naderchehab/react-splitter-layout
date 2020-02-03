@@ -29,6 +29,18 @@ export default function() {
         </pre>
         <Lorem title="2nd Pane" />
       </div>
+      <div className="my-pane">
+        <h2>3rd Pane</h2>
+        <p>This is the 3rd pane, and this is the secondary pane by default.</p>
+        <p>Try to resize the window and see how secondary pane&apos;s size keeps.</p>
+        <pre>
+          &lt;SplitterLayout primaryIndex={'{0}'}&gt;{'\n'}
+          &nbsp;&nbsp;&lt;div&gt;1st&lt;/div&gt;{'\n'}
+          &nbsp;&nbsp;<strong>&lt;div&gt;2nd&lt;/div&gt;</strong>{'\n'}
+          &lt;/SplitterLayout&gt;
+        </pre>
+        <Lorem title="3rd Pane" />
+      </div>
     </SplitterLayout>
   );
 }
